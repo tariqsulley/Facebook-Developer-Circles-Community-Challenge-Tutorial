@@ -90,15 +90,17 @@ and link the components together
 
 Now, I have a working drawer that renders different components but doesn't display anything so we move into Edit.js. We start by importing all the libraries we need 
 such as material table, and ui features from material ui after all that
-we'll create two class components. One to render the material-table and another 
+we'll create two class components. Since I assume you already have knowledge in javascript, the components I'm talking about here are similar
+to functions in js. They are bits of reusable code but they return html via the render function. One to render the material-table and another 
 to be a front page of the edit page
 In my code, you might notice you're seeing extends component and will be wondering why
 do I have to extend component?
 
 ![why](media/why.jpg)
 
-Well, it's because you have to extend component in order to gain access to react's lifecycle method
-you might have also noticed constructor props and super props. The constructor can be used to bind event handlers to the 
+Well, it's because you have to extend component in order to gain access to react's lifecycle methods such as componentdidmount,componenddidupdate etc.
+So it's like saying, hey React, I would like to create my own class component but I'll like to use some of your functions in my component to help me out.
+You might have also noticed constructor props and super props. The constructor can be used to bind event handlers to the 
 component and/or initializing the local state of the component. State is where you store property values that belong to an 
 a component
 
