@@ -94,6 +94,7 @@ we'll create two class components. One to render the material-table and another
 to be a front page of the edit page
 In my code, you might notice you're seeing extends component and will be wondering why
 do I have to extend component?
+
 ![why](media/why.jpg)
 
 Well, it's because you have to extend component in order to gain access to react's lifecycle method
