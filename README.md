@@ -13,5 +13,6 @@ This is a tutorial for beginners in React so I'm going to have a very interactiv
 
 Before we dive into react, we'll first have to install react. Since it's a javascript library it means we'll have to
 install node js. Now you might start wondering, why node js well because it comes along with node package manager(npm). Now 
-npm is a command line tool that will help us to install javascript libraries. Amazing is
+npm is a command line tool that will help us to install javascript libraries automatically. Amazing isn't it
+
 ![amazing](media/amazing.gif)
