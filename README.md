@@ -9,7 +9,9 @@ for you to check out. We'll be covering topics in react such as state,components
 most of you might say that there's already the react documentation at https://reactjs.org/ so why the need for this tutorial.
 Well, it is often said that the best way to learn something is to practice it, reading documentations always will get you stuck in 
 tutorial hell. You need to build something with your knowledge and if that's what you want to do then you're in the right place.
-This is a tutorial for beginners in React so I'm going to have a very interactive and lively tutorial.
+This is a tutorial for beginners in React so I'm going to have a very interactive and lively tutorial. Also, this is not
+a copy and paste tutorial where I explain what some code does, you copy and paste it before you can progress in building
+the app on your own. I certainly can't include every single line of code here so I'll the most important parts
 
 Before we dive into react, we'll first have to install react. Since it's a javascript library it means we'll have to
 install node js. Now you might start wondering, why node js well because it comes along with node package manager(npm). 
@@ -25,7 +27,7 @@ Normally, setting up the development environment is a stress for most beginners 
 everything needed to setup a working environment has been simplified (Cheers to them).
 
 Now after navigating to your desired folder in the node js cmd, type `npm init react-app roll-call-app` the "roll-call-app" section is up to you to decide 
-depending on your projects name. Now that we have everything in place, type npm start in the cmd and you'll notice that  http://localhost:3000
+depending on your projects name. Now that we have everything in place, type `npm start` in the cmd and you'll notice that  http://localhost:3000
 opens with this page
 ![react-app](media/cra.png)
 
@@ -50,3 +52,14 @@ my-app
     └── serviceWorker.js
     └── setupTests.js
 ```
+
+Now that we're all set, it's time to dig in and build our roll call app. You might know of a roll call where attendace of students/people at a particular event is
+tracked well how about if we built one in react that would be a great way to learn.
+
+Delete everything in src and create three new folders. Components will serve as where a link between all the pages is and the rest I guess are self explanatory.
+
+'''
+src
+├── components
+├── images
+├── pages
